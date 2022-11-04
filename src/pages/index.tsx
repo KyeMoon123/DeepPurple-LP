@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+
 import HeroComponent from "../../public/hero3.png"
 import Img1 from "../../public/img2.png"
 import Pie from "../../public/Pie.png"
@@ -11,7 +10,6 @@ import Logo from "../../public/Logomark.png"
 
 import SEO from "../components/seo"
 import Nav from "./HomePageComponents/Nav"
-import PricingPage from "./HomePageComponents/PricingPage"
 
 const IndexPage = () => (
   <>
