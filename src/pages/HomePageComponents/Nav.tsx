@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 export default function Nav() {
   return (
     <div className="navbar bg-base-100 py-4">
-      <div className="navbar-start">
-        <img src={Logo} className="h-20" />
+      <div className="navbar-start flex flex-row space-x-4 px-12">
+        <img src={Logo} className="h-20 w-20" />
         <a className="btn btn-ghost text-3xl normal-case text-secondary">
           Deep Purple
         </a>

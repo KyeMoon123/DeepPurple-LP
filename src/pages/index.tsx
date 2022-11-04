@@ -54,10 +54,10 @@ const IndexPage = () => (
       </h1>
     </div>
     <div className=" flex  py-20 pb-40 space-y-36 flex-col items-center">
-      <div className="hero ">
+      <div className="flex flex-row h-11/12 ">
         <div className="flex mx-40  lg:flex-row ">
-          <div className=" h-96 shadow-xl rounded-3xl flex p-4">
-            <div className=" flex justify-center">
+          <div className=" w-11/12 justify-center shadow-xl rounded-3xl flex p-4">
+            <div className=" h-96 flex justify-center">
               <img src={Img1} alt={"pic"} />
               <img src={Pie} alt={"pic"} />
             </div>
@@ -77,10 +77,10 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="hero ">
+      <div className="flex flex-row h-11/12  ">
         <div className="flex mx-40 lg:flex-row-reverse ">
-          <div className=" h-96 shadow-xl rounded-3xl flex p-4">
-            <div className=" flex space-x-4 justify-center">
+          <div className=" w-11/12 justify-center shadow-xl rounded-3xl flex p-4">
+            <div className=" flex h-96 space-x-4 justify-center">
               <img src={Bubbles} alt={"pic"} />
               <img className="rounded-xl" src={Line} alt={"pic"} />
             </div>
@@ -99,10 +99,10 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="hero ">
+      <div className="flex flex-row h-11/12  ">
         <div className="flex mx-40  lg:flex-row ">
-          <div className=" h-96 w-11/12 shadow-xl rounded-3xl flex p-4">
-            <div className=" flex  justify-center">
+          <div className="w-11/12 justify-center shadow-xl rounded-3xl flex p-4">
+            <div className=" flex h-96 justify-center">
               <img src={Report} alt={"pic"} />
             </div>
           </div>
