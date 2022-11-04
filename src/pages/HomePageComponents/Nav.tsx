@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../../../public/Logomark.png"
+import Logo from "../../../public/logomark.png"
 import { Link } from "gatsby"
 export default function Nav() {
   return (
