@@ -6,7 +6,7 @@ export default function Nav() {
     <div className="navbar bg-base-100 py-4">
       <div className="navbar-start flex space-x-4 px-12">
         <img src={Logo} className="h-20 w-20" />
-        <h1 className=" text-3xl  text-secondary">Deep Purple</h1>
+        <h1 className=" pt-6 text-3xl  text-secondary">Deep Purple</h1>
       </div>
       <div className="navbar-end">
         <div className="flex justify-end">
