@@ -1,11 +1,11 @@
 import React from "react"
 
 import HeroComponent from "../images/hero3.png"
-import Img1 from "../images/img2.png"
-import Pie from "../images/pie.png"
+import Img1 from "../images/img1.png"
+import hero2 from "../images/hero2.png"
 import Bubbles from "../images/card.png"
 import Line from "../images/line.png"
-import Report from "../images/desktop.png"
+import Report from "../images/desktop1.png"
 import Logo from "../images/logomark.png"
 
 import SEO from "../components/seo"
@@ -49,25 +49,19 @@ const IndexPage = () => (
     </div>
     <div className="flex flex-col items-center ">
       <h4 className=" text-2xl font-semibold text-secondary">Features</h4>
-      <h1 className="text-7xl  font-bold flex justify-center px-60 py-12 text-center ">
+      <h1 className="text-7xl  font-bold flex justify-center px-60 py-6 text-center ">
         Instant, accurate, data-backed insights for every team.
       </h1>
     </div>
-    <div className=" flex  py-20 pb-40 space-y-36 flex-col items-center">
-      <div className="flex flex-row h-11/12 ">
-        <div className="flex mx-40  lg:flex-row ">
-          <div className=" w-11/12 justify-center shadow-xl rounded-3xl flex p-4">
-            <div className=" h-96 flex justify-center">
-              <img src={Img1} alt={"pic"} />
-              <img src={Pie} alt={"pic"} />
-            </div>
-          </div>
-          <div className="py-6 space-y-4 flex w-11/12 mx-12 flex-col">
+    <div className="space-y-20 py-12">
+      <div className="hero ">
+        <div className="hero-content space-x-5 flex-col lg:flex-row">
+          <img src={Img1} className="max-w-xl rounded-lg shadow-2xl" />
+          <div>
             <h1 className="text-end text-6xl text-secondary font-semibold">
               Don't settle for keywords. Get the full context.
             </h1>
-            <p className=" py-6 text-2xl font-semibold ">
-              {" "}
+            <p className="py-6 text-end text-xl font-semibold">
               True analysis runs deeper than word bubbles. Go beyond sentiment
               analysis with visualisations of the most important compliments,
               complaints, questions, and requests sorted by volume and urgency.
@@ -77,40 +71,30 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="flex flex-row h-11/12  ">
-        <div className="flex mx-40 lg:flex-row-reverse ">
-          <div className=" w-11/12 justify-center shadow-xl rounded-3xl flex p-4">
-            <div className=" flex h-96 space-x-4 justify-center">
-              <img src={Bubbles} alt={"pic"} />
-              <img className="rounded-xl" src={Line} alt={"pic"} />
-            </div>
-          </div>
-          <div className="py-6 space-y-4 flex w-11/12 mx-12 flex-col">
+      <div className="hero">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img src={hero2} className="max-w-xl rounded-lg shadow-2xl" />
+          <div>
             <h1 className="text-start text-6xl text-secondary font-semibold">
               Instant Data Visualizations & Detailed Insights
             </h1>
-            <p className=" py-6 text-2xl font-semibold">
-              {" "}
+            <p className="py-6 text-start text-xl font-semibold">
               Uncovering insights in your data just got easy. Communications are
               grouped by semantic proximity using AI; explore the trends in
               topics and sentiment in your data overtime. With the ability for
-              complex filtering{" "}
+              complex filtering
             </p>
           </div>
         </div>
       </div>
-      <div className="flex flex-row h-11/12  ">
-        <div className="flex mx-40  lg:flex-row ">
-          <div className="w-11/12 justify-center shadow-xl rounded-3xl flex p-4">
-            <div className=" flex h-96 justify-center">
-              <img src={Report} alt={"pic"} />
-            </div>
-          </div>
-          <div className="py-6 space-y-4 flex w-11/12 mx-12 flex-col">
+      <div className="hero">
+        <div className="hero-content flex-col lg:flex-row">
+          <img src={Report} className="max-w-xl rounded-lg shadow-2xl" />
+          <div>
             <h1 className="text-end text-6xl text-secondary font-semibold">
               Make decisions faster with AI driven analysis
             </h1>
-            <p className=" py-6 text-2xl font-semibold">
+            <p className="py-6 text-end text-xl font-semibold">
               You shouldn’t be slowed down by SQL queries to get answers from
               your data; skip the pivot tables and make data-driven decisions
               faster. Just sync your data and let our AI take care of the hard
