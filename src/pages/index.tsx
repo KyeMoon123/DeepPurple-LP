@@ -3,7 +3,7 @@ import React from "react"
 import HeroComponent from "../images/hero3.png"
 import Img1 from "../images/img1.png"
 import hero2 from "../images/hero2.png"
-import Report from "../images/desktop1.png"
+import Report from "../images/desktop.png"
 import Logo from "../images/logomark.png"
 
 import SEO from "../components/seo"
