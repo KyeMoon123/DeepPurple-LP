@@ -4,9 +4,14 @@ import { Link } from "gatsby"
 export default function Nav() {
   return (
     <div className="navbar bg-base-100">
+      <div className="flex-none">
+        <button className="btn btn-square btn-ghost">
+          <img src={Logo} />
+        </button>
+      </div>
       <div className="flex-1">
-        <img src={Logo} className="h-20 w-20" />
-        <a className="btn btn-ghost normal-case text-3xl  text-secondary">
+        <a className="btn btn-ghost normal-case text-2xl text-secondary ">
+          {" "}
           Deep Purple
         </a>
       </div>
