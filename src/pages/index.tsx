@@ -3,8 +3,6 @@ import React from "react"
 import HeroComponent from "../images/hero3.png"
 import Img1 from "../images/img1.png"
 import hero2 from "../images/hero2.png"
-import Bubbles from "../images/card.png"
-import Line from "../images/line.png"
 import Report from "../images/desktop1.png"
 import Logo from "../images/logomark.png"
 
